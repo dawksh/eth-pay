@@ -225,7 +225,7 @@ let abi = [
 ]
 
 
-describe("Payment", function () {
+describe("DAI Value check", function () {
   it("DAI Value should be > 0 ", async function () {
     const Recipient = await ethers.getContractFactory("Recipient");
     const recepient = await Recipient.deploy("0x28172273CC1E0395F3473EC6eD062B6fdFb15940", "0x773616E4d11A78F511299002da57A0a94577F1f4");
